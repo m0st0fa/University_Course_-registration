@@ -3,10 +3,10 @@
 
 import React from 'react';
 
-const Cart = ({ SelectedCourse, totalCreditHours, creditReaming }) => {
+const Cart = ({ SelectedCourse, totalCreditHours, creditReaming,SelectedPrice }) => {
    return (
       <div>
-         <h3>Credit Remaining: {creditReaming}</h3>
+         <h3>Credit Hour Remaining:{creditReaming} hr</h3>
          <hr />
          <h3>Course Name: {SelectedCourse.length}</h3>
          <hr />
@@ -16,7 +16,8 @@ const Cart = ({ SelectedCourse, totalCreditHours, creditReaming }) => {
             ))}
          </ol>
          <h3>Total Credit Hour: {totalCreditHours}</h3>
-         <hr />
+         
+       
       </div>
    );
 };

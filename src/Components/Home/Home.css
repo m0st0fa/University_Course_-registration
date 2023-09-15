@@ -25,7 +25,7 @@
 }
 .cart-btn{
     width: 100%;
-    background-color: aqua;
+    background-color: #2F80ED;
 }
 .info{
     display: flex;
@@ -33,11 +33,18 @@
 }
 .price-section{
     display: flex;
-    gap: 10px;
+    gap:4px;
 
+}
+.price-section h2{
+    margin-top: 16px;
 }
 .credit-section{
     display: flex;
-    gap: 10px;
+    gap: 4px;
    
+   
+}
+.credit-section h2{
+    margin-top: 16px;
 }

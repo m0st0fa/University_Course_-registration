@@ -14,6 +14,7 @@ const Home = () => {
     const[SelectedCourse, setSelectedCourse]= useState([])
     const[creditReaming, setCreditReaming] = useState([])
     const[totalCreditHours, settotalCreditHours] = useState([])
+    const[SelectedPrice, setSelectedPrice]= useState([])
     
    
 
@@ -27,13 +28,16 @@ const Home = () => {
        const isExist = SelectedCourse.find((item)=>item.id==course.id)
 
        let count = course.credit;
+       let price = course.price
        if(isExist){
         Swal.fire(
-            'Already you take this corse!'
+            'Already you take this corse'
           )
        }else{
         SelectedCourse.forEach(item => {
             count = count + item.credit;
+           
+           
 
         });
 
@@ -42,23 +46,21 @@ const Home = () => {
         if(count > 20){
 
             Swal.fire(
-                'Mxmium Credit limit is Over!',
+                'maximum Credit limit is Over',
               )
               return
               
         }
+        
         setCreditReaming(reaming)
 
         settotalCreditHours(count)
 
         setSelectedCourse([...SelectedCourse, course])
-
+        
        }
-       
-       
-
     }
-    console.log(SelectedCourse)
+   
   
 
     return (
@@ -77,10 +79,10 @@ const Home = () => {
                                     <div className="info">
                                        <div className='price-section'>
                                        <h2><FaDollarSign></FaDollarSign></h2>
-                                        <span><p>price: {course.price}$</p></span>
+                                        <span><p>price: {course.price}</p></span>
                                        </div>
                                         <div className='credit-section'>
-                                        <h2><FaBookOpen /></h2>
+                                        <h3><FaBookOpen /></h3>
                                         <span> <p> Credit:{course.credit}</p></span>
                                         </div>
                                         
@@ -92,7 +94,7 @@ const Home = () => {
                     }
                 </div>
                 <div className="cart">
-                    <Cart creditReaming={creditReaming} totalCreditHours={totalCreditHours} SelectedCourse={SelectedCourse}></Cart>
+                    <Cart SelectedPrice={SelectedPrice} creditReaming={creditReaming} totalCreditHours={totalCreditHours} SelectedCourse={SelectedCourse}></Cart>
                 </div>
             </div>
         </div>
