@@ -14,7 +14,7 @@ const Home = () => {
     const[SelectedCourse, setSelectedCourse]= useState([])
     const[creditReaming, setCreditReaming] = useState([])
     const[totalCreditHours, settotalCreditHours] = useState([])
-    const[SelectedPrice, setSelectedPrice]= useState([])
+    
     
    
 
@@ -28,7 +28,6 @@ const Home = () => {
        const isExist = SelectedCourse.find((item)=>item.id==course.id)
 
        let count = course.credit;
-       let price = course.price
        if(isExist){
         Swal.fire(
             'Already you take this corse'
@@ -43,6 +42,7 @@ const Home = () => {
 
       
         const reaming = 20 - count;
+
         if(count > 20){
 
             Swal.fire(
@@ -51,6 +51,7 @@ const Home = () => {
               return
               
         }
+
         
         setCreditReaming(reaming)
 
@@ -59,6 +60,7 @@ const Home = () => {
         setSelectedCourse([...SelectedCourse, course])
         
        }
+      
     }
    
   
@@ -94,7 +96,7 @@ const Home = () => {
                     }
                 </div>
                 <div className="cart">
-                    <Cart SelectedPrice={SelectedPrice} creditReaming={creditReaming} totalCreditHours={totalCreditHours} SelectedCourse={SelectedCourse}></Cart>
+                    <Cart creditReaming={creditReaming} totalCreditHours={totalCreditHours} SelectedCourse={SelectedCourse}></Cart>
                 </div>
             </div>
         </div>

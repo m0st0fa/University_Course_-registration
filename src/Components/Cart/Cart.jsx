@@ -3,7 +3,7 @@
 
 import React from 'react';
 
-const Cart = ({ SelectedCourse, totalCreditHours, creditReaming,SelectedPrice }) => {
+const Cart = ({ SelectedCourse, totalCreditHours, creditReaming }) => {
    return (
       <div>
          <h3>Credit Hour Remaining:{creditReaming} hr</h3>
