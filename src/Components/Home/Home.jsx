@@ -89,7 +89,7 @@ const Home = () => {
                                         </div>
                                         
                                     </div>
-                                    <button onClick={()=>handleAddToCart(course)} className='cart-btn'>Selected</button>
+                                    <button onClick={()=>handleAddToCart(course)} className='button-card'>Selected</button>
                                 </div>
                             </div>
                         ))
