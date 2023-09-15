@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 import Cart from '../Cart/Cart';
 import './Home.css'
 import Swal from 'sweetalert2';
-
+import { FaDollarSign,FaBookOpen } from "react-icons/fa";
 
 const Home = () => {
 
@@ -29,9 +29,7 @@ const Home = () => {
        let count = course.credit;
        if(isExist){
         Swal.fire(
-            'you can not click twice!',
-            'Already you take this corse!',
-            'error'
+            'Already you take this corse!'
           )
        }else{
         SelectedCourse.forEach(item => {
@@ -45,7 +43,6 @@ const Home = () => {
 
             Swal.fire(
                 'Mxmium Credit limit is Over!',
-                'error'
               )
               return
               
@@ -76,10 +73,17 @@ const Home = () => {
                                     <img className='photo' src={course.image} alt="" />
                                     <h2>{course.course_name}</h2>
                                     <p>{course.details.slice(0,100)}</p>
-                                    
+
                                     <div className="info">
-                                        <p>price: {course.price}$</p>
-                                        <p> {course.credit}</p>
+                                       <div className='price-section'>
+                                       <h2><FaDollarSign></FaDollarSign></h2>
+                                        <span><p>price: {course.price}$</p></span>
+                                       </div>
+                                        <div className='credit-section'>
+                                        <h2><FaBookOpen /></h2>
+                                        <span> <p> Credit:{course.credit}</p></span>
+                                        </div>
+                                        
                                     </div>
                                     <button onClick={()=>handleAddToCart(course)} className='cart-btn'>Selected</button>
                                 </div>

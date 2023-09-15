@@ -31,3 +31,13 @@
     display: flex;
     justify-content: space-between;
 }
+.price-section{
+    display: flex;
+    gap: 10px;
+
+}
+.credit-section{
+    display: flex;
+    gap: 10px;
+   
+}

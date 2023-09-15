@@ -2,6 +2,7 @@
 import './App.css'
 import Home from './Components/Home/Home'
 import 'sweetalert2/dist/sweetalert2.min.css';
+import Header from './Components/Header/Header';
 
 
 
@@ -11,7 +12,8 @@ function App() {
 
   return (
     <>
-      <Home></Home>
+       <Header></Header>
+       <Home></Home>
     </>
   )
 }
