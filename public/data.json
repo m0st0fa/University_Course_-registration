@@ -1,0 +1,74 @@
+[
+    {
+        "image": "https://i.ibb.co/gWry211/Rectangle-2-1.png",
+        "course_name": "Machine Learning Algorithms",
+        "id": 1,
+        "details": "Explore the fascinating world of machine learning algorithms and their applications. Gain insights into cutting-edge techniques and tools. Dive into the world of Python programming. From basics to advanced topics, become a Python pro. Unlock the power of data analysis. Learn data visualization, statistical analysis, and make data-driven decisions.",
+        "price": 249.50,
+        "credit": 4
+    },
+    {
+        "image": "https://i.ibb.co/k6NcVbx/Rectangle-2-2.png",
+        "course_name": "Web Development Basics Need",
+        "id": 2,
+        "details": "Learn the fundamentals of web development, including HTML, CSS, and JavaScript. Build your own websites with ease. Master the art of managing databases efficiently. Discover SQL, NoSQL, and database design principles.",
+        "price": 99.99,
+        "credit": 2
+    },
+    {
+        "image": "https://i.ibb.co/PFmTL1f/Rectangle-2-3.png",
+        "course_name": "Database Management Systems",
+        "id": 3,
+        "details": "Master the art of managing databases efficiently. Discover SQL, NoSQL, and database design principles. Dive into the world of Python programming. From basics to advanced topics, become a Python pro. Unlock the power of data analysis. Learn data visualization, statistical analysis, and make data-driven decisions.",
+        "price": 149.99,
+        "credit": 4
+    },
+    {
+        "image": "https://i.ibb.co/HTxpnMP/Rectangle-2-4.png",
+        "course_name": "Introduction to Python",
+        "id": 4,
+        "details": "Dive into the world of Python programming. From basics to advanced topics, become a Python pro. Learn the fundamentals of web development, including HTML, CSS, and JavaScript. Start building your own websites with ease.",
+        "price": 79.99,
+        "credit": 3
+    },
+    {
+        "image": "https://i.ibb.co/VL80yPc/Rectangle-2-5.png",
+        "course_name": "Software Engineering Principles",
+        "id": 5,
+        "details": "Unlock the power of data analysis. Learn data visualization, statistical analysis, and make data-driven decisions. Explore the fascinating world of machine learning algorithms and their applications. Gain insights into cutting-edge techniques and tools.",
+        "price": 129.99,
+        "credit": 5
+    },
+    {
+        "image": "https://i.ibb.co/jzmsKrn/Rectangle-2-6.png",
+        "course_name": "Software Engineering Principles",
+        "id": 6,
+        "details": "Discover the core principles of software engineering and build robust, scalable software systems. Learn the fundamentals of web development, including HTML, CSS, and JavaScript. Start building your own websites with ease.",
+        "price": 199.99,
+        "credit": 4
+    },
+    {
+        "image": "https://i.ibb.co/jwqDCd1/Rectangle-2.png",
+        "course_name": "Introduction to python opp  Programming",
+        "id": 7,
+        "details": "Get started with the C programming language. Learn the basics of coding and problem-solving. Create stunning web designs. Master HTML, CSS, and web design principles to craft beautiful websites.",
+        "price": 59.99,
+        "credit": 2
+    },
+    {
+        "image": "https://i.ibb.co/Hn11PtR/Rectangle-3-1.png",
+        "course_name": "Website Design Fundamentals",
+        "id": 8,
+        "details": "Master HTML, CSS, and web design principles to create beautiful websites. Explore computer graphics. Create stunning web designs.CSS, and web design principles to craft beautiful websites.",
+        "price": 89.99,
+        "credit":3
+    },
+    {
+        "image": "https://i.ibb.co/gFbXcDs/Rectangle-3.png",
+        "course_name": "Computer Graphics Fundamentals",
+        "id": 9,
+        "details": "Delve into computer graphics with rendering, 3D modeling, and captivating visuals. Dive into the world of Python programming. From basics to advanced topics, become a Python pro. Unlock the power of data analysis. Learn data visualization, statistical analysis, and make data-driven decisions.",
+        "price": 249.50,
+        "credit":3
+    }
+]
