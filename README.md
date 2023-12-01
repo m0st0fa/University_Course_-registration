@@ -6,3 +6,5 @@ Answer:
 
 Question 2: Discuss how you managed the state in your assignment project?
 Answer: In this component, the state is managed through props (SelectedCourse, totalCreditHours, creditReaming, SelectedPrice). The parent component is responsible for passing down these props, and Cart component utilizes them to display the relevant information. This is a common pattern in React where state is managed at a higher level (in the parent component) and passed down to child components as props to maintain a unidirectional flow of data and ensure a predictable rendering of the UI.
+
+website demo link:https://6505b34e90e9f31a08c20198--sparkly-cupcake-01ba5c.netlify.app/
